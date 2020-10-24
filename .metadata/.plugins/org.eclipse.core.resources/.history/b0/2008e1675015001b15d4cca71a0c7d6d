@@ -1,0 +1,48 @@
+import java.util.Stack;
+
+public class StacksJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Stack<String> games = new Stack<String>();
+		
+		games.add("Super Mario");
+		games.add("Contra");
+		games.add("Turtle attack");
+		
+		
+		System.out.println(games);
+		
+		System.out.println(games.peek());
+		
+		System.out.println(games.pop()); // removing the top element
+		
+		System.out.println(games);
+		
+		
+		// R
+		// G
+		// B
+		
+		Stack<Character> tower = new Stack<Character>();
+		
+		tower.add('R');
+		tower.add('G');
+		tower.add('B');
+		
+		System.out.println(tower);
+		
+		System.out.println(tower.peek());
+		
+		System.out.println(tower.contains('G'));
+		System.out.println(tower.contains('P'));
+		
+		System.out.println(tower.empty());
+		
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+
+public class IntegerToArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] ourArray = returnArrayFromInt(1,6,90);
+		System.out.println(ourArray[0]);
+		System.out.println(ourArray[1]);
+		System.out.println(ourArray[2]);
+
+	}
+	
+	public static int[] returnArrayFromInt(int a, int b, int c) {
+		int[] array = new int[3]; //array initializaiton
+		
+		
+		array[0] = a;
+		array[1] = b;
+		array[2] = c;
+		
+		return array;
+		
+	}
+
+}

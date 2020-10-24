@@ -1,0 +1,20 @@
+
+public class GettersSettersJava {
+	
+	String name;
+	int age;
+	
+	
+	public static void main(String[] args) {
+		
+		GettersSettersJava a = new GettersSettersJava();
+		
+		a.happyBirthday(Sid);
+		
+	}
+	
+	public static void happyBirthday(String name) {
+		System.out.println("Happy birthday " + name);
+	}
+
+}

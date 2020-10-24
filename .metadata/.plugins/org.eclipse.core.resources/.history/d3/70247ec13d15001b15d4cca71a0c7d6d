@@ -1,0 +1,25 @@
+import java.util.HashSet;
+
+public class HashsetJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> h = new HashSet<String>();
+		
+		h.add("pug");
+		h.add("chihuahua");
+		h.add("retreiver");
+		h.add("husky");
+		
+		System.out.println(h);
+		
+		h.remove("chihuahua");
+		
+		System.out.println(h);
+		
+		
+
+	}
+
+}

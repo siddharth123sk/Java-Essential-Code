@@ -1,0 +1,35 @@
+
+abstract class Dog{
+	
+	String breed;
+	
+	public void bark() {
+		System.out.println("Bark!");
+	}
+}
+
+
+
+class Chihuahua extends Dog{
+	
+}
+
+
+
+
+public class AbstractTutorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Dog d = new Dog();
+		
+		//d.bark();
+		
+		Chihuahua c = new Chihuahua();
+		
+		c.bark();
+
+	}
+
+}

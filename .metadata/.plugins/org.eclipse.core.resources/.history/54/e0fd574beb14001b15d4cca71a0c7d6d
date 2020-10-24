@@ -1,0 +1,21 @@
+
+public class Fish extends Animal {
+	
+
+	public Fish(int age, String genger, int weightInLbs) {
+		super(age, gender, weightinLbs);
+	}
+	
+	public void swim() {
+		System.out.println("Swimming...");
+	}
+
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}
