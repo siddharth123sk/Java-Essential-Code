@@ -8,6 +8,11 @@ public class RollingDiceJava {
 		Random diceNumber = new Random();
 		int diceOutput = diceNumber.nextInt(6) + 1;
 		
+		for(int i = 0; i<diceOutput; i++) {
+			System.out.print("*");
+		}
+		
+		System.out.println();
 		System.out.println(diceOutput);
 
 	}
